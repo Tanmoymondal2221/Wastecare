@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eef1f5;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #d7dad7;
+    padding: 15px 40px;
+}
+
+.logo img {
+    width: 210px;
+    height: 50px;
+    object-fit: contain;
+}
+
+/* CONTAINER */
+.container {
+    padding: 30px;
+}
+
+/* HEADER */
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header-box h2 {
+    margin: 0;
+}
+
+/* BACK BUTTON */
+.back-btn {
+    text-decoration: none;
+    background: #2e7d32;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 5px;
+}
+
+.back-btn:hover {
+    background: #1b5e20;
+}
+
+/* CARD */
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+} 
+
+
+
+
+
+
+
+
+/* TABLE */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #2e7d32;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+    background: #f9f9f9;
+}
+
+/* FORM */
+form {
+    margin-bottom: 6px;
+}
+
+select, input[type="date"] {
+    width: 100%;
+    padding: 5px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+
+/* BUTTONS */
+.btn {
+    width: 100%;
+    padding: 6px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.green {
+    background: #4caf50;
+}
+
+.green:hover {
+    background: #2e7d32;
+}
+
+.blue {
+    background: #2196f3;
+}
+
+.blue:hover {
+    background: #1565c0;
+}

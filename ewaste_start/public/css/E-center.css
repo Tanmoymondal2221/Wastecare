@@ -1,0 +1,154 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    background-color: #d7dad7;
+    padding: 17px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo img{
+    width: 250px;
+    height: 50px;
+    object-fit: cover;
+}
+
+
+.navbar .logo{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #060c05;
+}
+
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.navbar ul li a{
+    color: #154706;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s ease;
+
+}
+.navbar ul li a:hover{
+    color: #9a249e;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #e8f5e9, #c8e6c9);
+    min-height: 100vh;
+}
+
+/* Container */
+.container {
+    max-width: 900px;
+    margin: 60px auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Title */
+.tittle {
+    font-size: 2rem;
+    color: #2e7d32;
+    margin-bottom: 10px;
+}
+
+.container p {
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Search Box */
+.search-box {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+/* Input */
+.form-control {
+    width: 70%;
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+
+/* Buttons */
+button, .btn {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #4CAF50;
+    color: white;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button:hover, .btn:hover {
+    background: #2e7d32;
+}
+
+/* Secondary Button */
+.btn-primary {
+    background: #2196F3;
+    margin-top: 20px;
+}
+
+.btn-primary:hover {
+    background: #1565c0;
+}
+
+/* Map Section */
+.map-container {
+    margin-top: 30px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.map-container h4 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Map Frame */
+iframe {
+    border-radius: 12px;
+    width: 100%;
+    height: 400px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .search-box {
+        flex-direction: column;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+}
